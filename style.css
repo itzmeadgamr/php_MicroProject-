@@ -1,0 +1,95 @@
+body {
+    background: #1e272e;
+    color: #f5f6fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container, .form-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+h1, h2 {
+    text-align: center;
+    color: #00adb5;
+}
+.event-card {
+    background: rgba(0, 173, 181, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+input, textarea, button {
+    width: 97.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+button {
+    background-color: #00adb5;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #007d7e;
+}
+.alert {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.success {
+    background-color: #4caf50;
+}
+.error {
+    background-color: #e74c3c;
+}
+
+.navbar {
+    background-color: #00adb5;
+    padding: 10px 0;
+    text-align: center;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.navbar a:hover {
+    background-color: #007d7e;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+}
+.btn.edit {
+    background-color: #4caf50;
+}
+.btn.delete {
+    background-color: #e74c3c;
+}
+.pdf-email-options {
+    margin-top: 20px;
+}
+.btn.pdf {
+    background-color: #3498db;
+}
+.btn.email {
+    background-color: #9b59b6;
+}
+
